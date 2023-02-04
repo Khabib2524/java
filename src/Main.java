@@ -1,5 +1,8 @@
+import javax.swing.*;
 public class Main {
     public static void main(String[] args) {
-        System.out.println("Hello world!");
+        String name;
+        name = JOptionPane.showInputDialog("Добрый день! Как вас зовут?");
+        JOptionPane.showMessageDialog(null, "Приятно познакомиться, " + name + "!");
     }
 }
